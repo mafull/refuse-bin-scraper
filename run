@@ -1,0 +1,3 @@
+#!/bin/bash
+
+docker build -t refuse-bin-scraper . && clear && docker run --rm -it refuse-bin-scraper
